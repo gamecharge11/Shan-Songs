@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&display=swap');
+
+
+body{
+    background-color: lavender;
+    background-size: 50%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 300%;
+    color: purple;
+    text-align: center;
+
+}
+
+h3{
+    animation: swivel 1s infinite;
+}
+
+@keyframes swivel{
+    0%{
+        transform: scale(1);
+
+
+    }
+    50%{
+        color: blue;
+        transform: scale(0.9);
+    }
+    100%{
+        color: purple;
+        transform: scale(1);
+    }
+
+}
+
+h1{
+    animation: off 1s infinite;
+}
+
+@keyframes fast{
+    0%{
+        transform: scale(1.5);
+
+
+    }
+    50%{
+
+        transform: scale(1.0);
+    }
+    100%{
+
+        transform: scale(1.5);
+    }
+
+}
+
